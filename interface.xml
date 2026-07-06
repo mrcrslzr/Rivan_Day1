@@ -1,0 +1,42 @@
+
+<interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces"  xmlns:if="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+  <interface>
+    <name>GigabitEthernet1</name>
+    <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+    <enabled>true</enabled>
+    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <address>
+        <ip>208.8.8.11</ip>
+        <netmask>255.255.255.0</netmask>
+      </address>
+    </ipv4>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv6>
+  </interface>
+  <interface>
+    <name>GigabitEthernet2</name>
+    <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+    <enabled>true</enabled>
+    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <address>
+        <ip>192.168.102.11</ip>
+        <netmask>255.255.255.0</netmask>
+      </address>
+    </ipv4>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv6>
+  </interface>
+  <interface>
+    <name>GigabitEthernet3</name>
+    <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+    <enabled>true</enabled>
+    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <address>
+        <ip>11.11.11.113</ip>
+        <netmask>255.255.255.224</netmask>
+      </address>
+    </ipv4>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv6>
+  </interface>
+</interfaces>
